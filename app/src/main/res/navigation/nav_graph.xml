@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.ex1.fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_transferFragment"
+            app:destination="@id/transferFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_cerFragment"
+            app:destination="@id/cerFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_makeFragment2"
+            app:destination="@id/makeFragment2" />
+        <action
+            android:id="@+id/action_mainFragment_to_accountFragment2"
+            app:destination="@id/accountFragment2" />
+        <action
+            android:id="@+id/action_mainFragment_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.ex1.fragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_log1Fragment2"
+            app:destination="@id/log1Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/log1Fragment2"
+        android:name="com.example.ex1.fragment.Log1Fragment"
+        android:label="fragment_log1"
+        tools:layout="@layout/fragment_log1" >
+        <action
+            android:id="@+id/action_log1Fragment2_to_log2Fragment"
+            app:destination="@id/log2Fragment" />
+        <action
+            android:id="@+id/action_log1Fragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <argument
+            android:name="id"
+            app:argType="string" />
+        <argument
+            android:name="password"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/log2Fragment"
+        android:name="com.example.ex1.fragment.Log2Fragment"
+        android:label="fragment_log2"
+        tools:layout="@layout/fragment_log2" >
+        <action
+            android:id="@+id/action_log2Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/transferFragment"
+        android:name="com.example.ex1.fragment.TransferFragment"
+        android:label="fragment_transfer"
+        tools:layout="@layout/fragment_transfer" >
+        <action
+            android:id="@+id/action_transferFragment_to_trans1Fragment"
+            app:destination="@id/trans1Fragment" />
+        <action
+            android:id="@+id/action_transferFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transfinishFragment"
+        android:name="com.example.ex1.fragment.TransfinishFragment"
+        android:label="fragment_transfinish"
+        tools:layout="@layout/fragment_transfinish" >
+        <action
+            android:id="@+id/action_transfinishFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trans1Fragment"
+        android:name="com.example.ex1.fragment.Trans1Fragment"
+        android:label="fragment_trans1"
+        tools:layout="@layout/fragment_trans1" >
+        <action
+            android:id="@+id/action_trans1Fragment_to_transferFragment"
+            app:destination="@id/transferFragment" />
+        <action
+            android:id="@+id/action_trans1Fragment_to_trans1dataFragment"
+            app:destination="@id/trans1dataFragment"
+            app:popUpTo="@id/trans1Fragment" />
+        <action
+            android:id="@+id/action_trans1Fragment_to_trans2Fragment"
+            app:destination="@id/trans2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment2"
+        android:name="com.example.ex1.fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_accountFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_accountFragment2_to_acc1Fragment"
+            app:destination="@id/acc1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/makeFragment2"
+        android:name="com.example.ex1.fragment.MakeFragment"
+        android:label="fragment_make"
+        tools:layout="@layout/fragment_make" >
+        <action
+            android:id="@+id/action_makeFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_makeFragment2_to_make1Fragment"
+            app:destination="@id/make1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cerFragment"
+        android:name="com.example.ex1.fragment.CerFragment"
+        android:label="fragment_cer"
+        tools:layout="@layout/fragment_cer" >
+        <action
+            android:id="@+id/action_cerFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_cerFragment_to_cer1Fragment"
+            app:destination="@id/cer1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trans2Fragment"
+        android:name="com.example.ex1.fragment.Trans2Fragment"
+        android:label="fragment_trans2"
+        tools:layout="@layout/fragment_trans2" >
+        <action
+            android:id="@+id/action_trans2Fragment_to_transfinishFragment"
+            app:destination="@id/transfinishFragment" />
+        <action
+            android:id="@+id/action_trans2Fragment_to_transferFragment"
+            app:destination="@id/transferFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/acc1Fragment"
+        android:name="com.example.ex1.fragment.Acc1Fragment"
+        android:label="fragment_acc1"
+        tools:layout="@layout/fragment_acc1" />
+    <fragment
+        android:id="@+id/make1Fragment"
+        android:name="com.example.ex1.fragment.Make1Fragment"
+        android:label="fragment_make1"
+        tools:layout="@layout/fragment_make1" >
+        <action
+            android:id="@+id/action_make1Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment2"
+        android:name="com.example.ex1.fragment.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+        <action
+            android:id="@+id/action_menuFragment2_to_menunavFragment2"
+            app:destination="@id/menunavFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/menunavFragment2"
+        android:name="com.example.ex1.fragment.MenunavFragment"
+        android:label="fragment_menunav"
+        tools:layout="@layout/fragment_menunav" >
+        <action
+            android:id="@+id/action_menunavFragment2_to_menuFragment2"
+            app:destination="@id/menuFragment2" />
+        <action
+            android:id="@+id/action_menunavFragment2_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cer1Fragment"
+        android:name="com.example.ex1.fragment.Cer1Fragment"
+        android:label="fragment_cer1"
+        tools:layout="@layout/fragment_cer1" >
+        <action
+            android:id="@+id/action_cer1Fragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trans1dataFragment"
+        android:name="com.example.ex1.fragment.Trans1dataFragment"
+        android:label="fragment_trans1data"
+        tools:layout="@layout/fragment_trans1data" >
+        <action
+            android:id="@+id/action_trans1dataFragment_to_trans1Fragment"
+            app:destination="@id/trans1Fragment" />
+    </fragment>
+
+</navigation>
