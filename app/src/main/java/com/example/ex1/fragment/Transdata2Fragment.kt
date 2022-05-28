@@ -8,15 +8,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import com.example.ex1.databinding.FragmentMainBinding
-import kotlinx.android.synthetic.main.fragment_trans1.*
-import kotlinx.android.synthetic.main.fragment_trans1.btn_home51
-import kotlinx.android.synthetic.main.fragment_trans1data.*
+import kotlinx.android.synthetic.main.fragment_transdata2.*
 
 
-class Trans1dataFragment : Fragment() {
-
-
+class Transdata2Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -25,8 +20,7 @@ class Trans1dataFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_trans1data, container, false)
-
+        return inflater.inflate(R.layout.fragment_trans1, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -34,8 +28,14 @@ class Trans1dataFragment : Fragment() {
 
         navController = Navigation.findNavController(view)
 
-        btn_red5.setOnClickListener {
-            navController.navigate(R.id.action_trans1dataFragment_to_transdata2Fragment)
+
+        btn_next12.setOnClickListener {
+            navController.navigate(R.id.action_transdata2Fragment_to_trans2Fragment)
+        }
+
+
+        btn_home52.setOnClickListener {
+            navController.navigate(R.id.action_transdata2Fragment_to_transferFragment)
         }
 
     }

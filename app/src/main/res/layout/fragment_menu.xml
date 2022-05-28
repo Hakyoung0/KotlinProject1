@@ -10,15 +10,15 @@
 
     <TextView
         android:id="@+id/txt_accfind"
-        android:layout_width="191dp"
-        android:layout_height="74dp"
+        android:layout_width="164dp"
+        android:layout_height="54dp"
         android:layout_marginTop="28dp"
         android:autoSizeMaxTextSize="100dp"
         android:autoSizeMinTextSize="10dp"
         android:autoSizeTextType="uniform"
         android:background="#00FFFFFF"
         android:fontFamily="sans-serif-black"
-        android:text="@string/account"
+        android:text="@string/menu"
         android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,8 +63,8 @@
 
     <TextView
         android:id="@+id/textname"
-        android:layout_width="126dp"
-        android:layout_height="65dp"
+        android:layout_width="117dp"
+        android:layout_height="50dp"
         android:autoSizeMaxTextSize="100dp"
         android:autoSizeMinTextSize="10dp"
         android:autoSizeTextType="uniform"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/transback1"
-    tools:context=".fragment.Trans1Fragment">
+    tools:context=".fragment.Transdata2Fragment">
 
     <TextView
         android:id="@+id/txt_bank"
@@ -93,7 +93,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txt_accountnumber" />
 
     <Button
-        android:id="@+id/btn_home51"
+        android:id="@+id/btn_home52"
         android:layout_width="56dp"
         android:layout_height="54dp"
         android:background="#03FFFFFF"
@@ -132,15 +132,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edt_banks"
+        app:layout_constraintTop_toBottomOf="@+id/banks"
         app:layout_constraintVertical_bias="0.058" />
 
     <TextView
-        android:id="@+id/edt_banks"
+        android:id="@+id/banks"
         android:layout_width="368dp"
         android:layout_height="62dp"
-        android:hint="@string/bank"
+        android:hint="KB 국민은행"
         android:textSize="30sp"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
@@ -149,18 +150,18 @@
         app:layout_constraintVertical_bias="0.058" />
 
     <Button
-        android:id="@+id/btn_red51"
-        android:layout_width="373dp"
-        android:layout_height="78dp"
-        android:backgroundTint="#00FFFFFF"
-        android:contentDescription="@string/red"
+        android:id="@+id/btn_next12"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/btn_next"
+        android:text="Button"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.578"
-        app:strokeColor="#F44336"
-        app:strokeWidth="10dp" />
+        app:layout_constraintVertical_bias="0.946" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

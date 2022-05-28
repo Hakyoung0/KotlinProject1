@@ -32,9 +32,6 @@ class Trans1Fragment : Fragment() {
             navController.navigate(R.id.action_trans1Fragment_to_trans1dataFragment)
         }
 
-        btn_next1.setOnClickListener {
-            navController.navigate(R.id.action_trans1Fragment_to_trans2Fragment)
-        }
 
 
         btn_home51.setOnClickListener {

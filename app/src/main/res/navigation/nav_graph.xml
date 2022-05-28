@@ -102,9 +102,6 @@
             android:id="@+id/action_trans1Fragment_to_trans1dataFragment"
             app:destination="@id/trans1dataFragment"
             app:popUpTo="@id/trans1Fragment" />
-        <action
-            android:id="@+id/action_trans1Fragment_to_trans2Fragment"
-            app:destination="@id/trans2Fragment" />
     </fragment>
     <fragment
         android:id="@+id/accountFragment2"
@@ -153,6 +150,9 @@
         <action
             android:id="@+id/action_trans2Fragment_to_transferFragment"
             app:destination="@id/transferFragment" />
+        <action
+            android:id="@+id/action_trans2Fragment_to_transfinishFragment2"
+            app:destination="@id/transfinishFragment" />
     </fragment>
     <fragment
         android:id="@+id/acc1Fragment"
@@ -208,8 +208,23 @@
         android:label="fragment_trans1data"
         tools:layout="@layout/fragment_trans1data" >
         <action
-            android:id="@+id/action_trans1dataFragment_to_trans1Fragment"
-            app:destination="@id/trans1Fragment" />
+            android:id="@+id/action_trans1dataFragment_to_transdata2Fragment"
+            app:destination="@id/transdata2Fragment" />
+        <action
+            android:id="@+id/action_trans1dataFragment_to_transdata2Fragment2"
+            app:destination="@id/transdata2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/transdata2Fragment"
+        android:name="com.example.ex1.fragment.Transdata2Fragment"
+        android:label="fragment_transdata2"
+        tools:layout="@layout/fragment_transdata2" >
+        <action
+            android:id="@+id/action_transdata2Fragment_to_trans2Fragment"
+            app:destination="@id/trans2Fragment" />
+        <action
+            android:id="@+id/action_transdata2Fragment_to_transferFragment"
+            app:destination="@id/transferFragment" />
     </fragment>
 
 </navigation>

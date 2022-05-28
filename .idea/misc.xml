@@ -21,8 +21,10 @@
         <entry key="app/src/main/res/layout/fragment_menuns.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_menus.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_trans1.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_trans1_1.xml" value="0.2198549410698096" />
         <entry key="app/src/main/res/layout/fragment_trans1data.xml" value="0.11220225658169662" />
         <entry key="app/src/main/res/layout/fragment_trans2.xml" value="0.13825929283771532" />
+        <entry key="app/src/main/res/layout/fragment_transdata2.xml" value="0.2198549410698096" />
         <entry key="app/src/main/res/layout/fragment_transfer.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_transfinish.xml" value="0.125" />
         <entry key="app/src/main/res/menu/menu_drawer_navigation.xml" value="0.1" />

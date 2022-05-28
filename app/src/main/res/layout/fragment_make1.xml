@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/transback1"
     tools:context=".fragment.Make1Fragment">
 
 
@@ -23,7 +22,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.041" />
 
     <Button
         android:id="@+id/btn_home"
@@ -37,6 +36,151 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
+
+    <RelativeLayout
+        android:id="@+id/make_card"
+        android:layout_width="469dp"
+        android:layout_height="328dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/card"
+        android:clipToOutline="true"
+        android:elevation="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215">
+
+        <TextView
+            android:id="@+id/txt_make1"
+            android:layout_width="135dp"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="49dp"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="285dp"
+            android:layout_marginBottom="228dp"
+            android:autoSizeMaxTextSize="100dp"
+            android:autoSizeMinTextSize="10dp"
+            android:autoSizeTextType="uniform"
+            android:background="#00FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:text="추천통장"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <TextView
+            android:id="@+id/txt_make2"
+            android:layout_width="189dp"
+            android:layout_height="77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginTop="122dp"
+            android:layout_marginEnd="151dp"
+            android:layout_marginBottom="129dp"
+            android:autoSizeMaxTextSize="100dp"
+            android:autoSizeMinTextSize="10dp"
+            android:autoSizeTextType="uniform"
+            android:background="#00FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:text="000적금"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.042" />
+
+        <Button
+            android:id="@+id/btn_make2"
+            android:layout_width="357dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="208dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="53dp"
+            android:background="#00FFFFFF"
+            android:foreground="@drawable/btn_make2"
+            android:text="Button" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_shop"
+        android:layout_width="138dp"
+        android:layout_height="59dp"
+        android:autoSizeMaxTextSize="100dp"
+        android:autoSizeMinTextSize="10dp"
+        android:autoSizeTextType="uniform"
+        android:background="#00FFFFFF"
+        android:fontFamily="sans-serif-black"
+        android:text="금융상품"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_make"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <Button
+        android:id="@+id/btn_inout"
+        android:layout_width="133dp"
+        android:layout_height="155dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/inout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"
+        app:rippleColor="#00000000"
+        app:strokeColor="#00000000" />
+
+    <Button
+        android:id="@+id/btn_in"
+        android:layout_width="133dp"
+        android:layout_height="155dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/in"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_fund"
+        app:layout_constraintStart_toEndOf="@+id/btn_inout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"
+        app:rippleColor="#00000000"
+        app:strokeColor="#00000000" />
+
+    <Button
+        android:id="@+id/btn_fund"
+        android:layout_width="133dp"
+        android:layout_height="155dp"
+        android:background="#00FFFFFF"
+        android:foreground="@drawable/fund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_inout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"
+        app:rippleColor="#00000000"
+        app:strokeColor="#00000000" />
 
     <Button
         android:id="@+id/btn_next1"
