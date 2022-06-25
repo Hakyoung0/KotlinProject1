@@ -101,7 +101,8 @@
         <action
             android:id="@+id/action_trans1Fragment_to_trans1dataFragment"
             app:destination="@id/trans1dataFragment"
-            app:popUpTo="@id/trans1Fragment" />
+            app:popUpTo="@id/trans1Fragment"
+            app:popUpToInclusive="false" />
     </fragment>
     <fragment
         android:id="@+id/accountFragment2"
@@ -125,6 +126,9 @@
             app:destination="@id/mainFragment" />
         <action
             android:id="@+id/action_makeFragment2_to_make1Fragment"
+            app:destination="@id/make1Fragment" />
+        <action
+            android:id="@+id/action_makeFragment2_to_make1Fragment2"
             app:destination="@id/make1Fragment" />
     </fragment>
     <fragment

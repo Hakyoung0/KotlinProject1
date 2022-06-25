@@ -1,5 +1,7 @@
 package com.example.ex1.fragment
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -52,6 +54,10 @@ class MainFragment : Fragment() {
 
         btn_menu.setOnClickListener{
             navController.navigate(R.id.action_mainFragment_to_menuFragment2)
+        }
+        btn_url.setOnClickListener {
+            var intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.shinhaninvest.com/siw/customer-center/protection/customer_education_senior/contents.do"))
+            startActivity(intent)
         }
 
     }

@@ -163,4 +163,10 @@
         app:strokeColor="#F44336"
         app:strokeWidth="10dp" />
 
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="18dp"
+        android:layout_height="14dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="471dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

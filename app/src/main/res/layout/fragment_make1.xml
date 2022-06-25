@@ -80,16 +80,16 @@
 
         <TextView
             android:id="@+id/txt_make2"
-            android:layout_width="189dp"
-            android:layout_height="77dp"
+            android:layout_width="177dp"
+            android:layout_height="72dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="129dp"
-            android:layout_marginTop="122dp"
-            android:layout_marginEnd="151dp"
-            android:layout_marginBottom="129dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginEnd="148dp"
+            android:layout_marginBottom="136dp"
             android:autoSizeMaxTextSize="100dp"
             android:autoSizeMinTextSize="10dp"
             android:autoSizeTextType="uniform"
@@ -184,8 +184,8 @@
 
     <Button
         android:id="@+id/btn_next1"
-        android:layout_width="130dp"
-        android:layout_height="66dp"
+        android:layout_width="161dp"
+        android:layout_height="65dp"
         android:background="#00FFFFFF"
         android:foreground="@drawable/btn_next"
         android:text="Button"

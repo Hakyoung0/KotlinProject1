@@ -1,5 +1,7 @@
 package com.example.ex1.fragment
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -10,6 +12,7 @@ import androidx.navigation.Navigation
 import com.example.ex1.R
 import kotlinx.android.synthetic.main.fragment_cer.*
 import kotlinx.android.synthetic.main.fragment_cer.btn_home
+import kotlinx.android.synthetic.main.fragment_main.*
 import kotlinx.android.synthetic.main.fragment_make1.*
 import kotlinx.android.synthetic.main.fragment_transfer.*
 
