@@ -30,7 +30,7 @@ class Log2Fragment : Fragment() {
         navController = Navigation.findNavController(view)
 
 
-        btn_red2.setOnClickListener {
+        btn_redlog2.setOnClickListener {
             navController.navigate(R.id.action_log2Fragment_to_mainFragment)
         }
 

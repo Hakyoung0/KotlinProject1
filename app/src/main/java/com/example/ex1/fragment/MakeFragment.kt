@@ -9,8 +9,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
 import kotlinx.android.synthetic.main.fragment_make.*
-import kotlinx.android.synthetic.main.fragment_transfer.*
-import kotlinx.android.synthetic.main.fragment_transfer.btn_back
+
 
 class MakeFragment : Fragment() {
 
@@ -28,15 +27,15 @@ class MakeFragment : Fragment() {
 
         navController= Navigation.findNavController(view)
 
-        btn_red3.setOnClickListener{
+        btn_redmake1.setOnClickListener{
             navController.navigate(R.id.action_makeFragment2_to_make1Fragment)
         }
 
-        btn_home3.setOnClickListener{
+        btn_homemake.setOnClickListener{
             navController.navigate(R.id.action_makeFragment2_to_mainFragment)
         }
 
-        btn_back.setOnClickListener{
+        btn_backmake.setOnClickListener{
             navController.navigate(R.id.action_makeFragment2_to_mainFragment)
         }
     }

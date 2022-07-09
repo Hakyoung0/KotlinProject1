@@ -10,8 +10,6 @@ import androidx.navigation.Navigation
 import com.example.ex1.R
 import com.example.ex1.R.layout.fragment_menu
 import kotlinx.android.synthetic.main.fragment_menu.*
-import kotlinx.android.synthetic.main.fragment_transfer.*
-import kotlinx.android.synthetic.main.fragment_transfer.btn_back
 
 class MenuFragment : Fragment() {
 
@@ -30,15 +28,15 @@ class MenuFragment : Fragment() {
 
         navController= Navigation.findNavController(view)
 
-        btn_red6.setOnClickListener{
+        btn_redmenu.setOnClickListener{
             navController.navigate(R.id.action_menuFragment2_to_menunavFragment2)
         }
 
-        btn_home.setOnClickListener{
+        btn_homemenu.setOnClickListener{
             navController.navigate(R.id.action_menuFragment2_to_mainFragment)
         }
 
-        btn_back6.setOnClickListener{
+        btn_backmenu.setOnClickListener{
             navController.navigate(R.id.action_menuFragment2_to_mainFragment)
         }
     }

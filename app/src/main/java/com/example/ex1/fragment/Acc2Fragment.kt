@@ -8,12 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import com.example.ex1.R.layout.fragment_menunav
-import kotlinx.android.synthetic.main.fragment_menunav.*
+import kotlinx.android.synthetic.main.fragment_acc2.*
 
-
-
-class MenunavFragment : Fragment() {
+class Acc2Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -22,21 +19,20 @@ class MenunavFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(fragment_menunav, container, false)
+        return inflater.inflate(R.layout.fragment_acc1, container, false)
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         navController= Navigation.findNavController(view)
 
 
-        btn_home.setOnClickListener{
-            navController.navigate(R.id.action_menunavFragment2_to_mainFragment)
+        btn_homeacc2.setOnClickListener{
+            navController.navigate(R.id.action_acc2Fragment2_to_mainFragment)
         }
 
-        btn_back.setOnClickListener{
-            navController.navigate(R.id.action_menunavFragment2_to_menuFragment2)
+        btn_backacc2.setOnClickListener{
+            navController.navigate(R.id.action_acc2Fragment2_to_acc1Fragment)
         }
     }
 

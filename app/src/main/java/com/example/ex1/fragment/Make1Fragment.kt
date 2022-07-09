@@ -38,6 +38,11 @@ class Make1Fragment : Fragment() {
             navController.navigate(R.id.action_make1Fragment_to_mainFragment)
         }
 
+        btn_redmake.setOnClickListener {
+            navController.navigate(R.id.action_make1Fragment_to_make2Fragment)
+        }
+
+
     }
 
 }

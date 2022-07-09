@@ -9,9 +9,7 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
 import kotlinx.android.synthetic.main.fragment_account.*
-import kotlinx.android.synthetic.main.fragment_make.*
-import kotlinx.android.synthetic.main.fragment_make.btn_back
-import kotlinx.android.synthetic.main.fragment_transfer.*
+
 
 class AccountFragment : Fragment() {
 

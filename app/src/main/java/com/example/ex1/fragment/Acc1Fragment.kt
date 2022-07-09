@@ -6,7 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
+import androidx.navigation.Navigation
 import com.example.ex1.R
+import kotlinx.android.synthetic.main.fragment_acc1.*
+import kotlinx.android.synthetic.main.fragment_account.*
 
 class Acc1Fragment : Fragment() {
 
@@ -20,5 +23,21 @@ class Acc1Fragment : Fragment() {
         return inflater.inflate(R.layout.fragment_acc1, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        navController= Navigation.findNavController(view)
+
+        btn_redacc1.setOnClickListener{
+            navController.navigate(R.id.action_acc1Fragment_to_acc2Fragment2)
+        }
+
+        btn_homeacc1.setOnClickListener{
+            navController.navigate(R.id.action_acc1Fragment_to_accountFragment2)
+        }
+
+        btn_nextacc1.setOnClickListener{
+            navController.navigate(R.id.action_acc1Fragment_to_acc2Fragment2)
+        }
+    }
 }
