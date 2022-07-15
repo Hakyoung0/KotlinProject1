@@ -162,14 +162,11 @@
         android:label="fragment_acc1"
         tools:layout="@layout/fragment_acc1" >
         <action
-            android:id="@+id/action_acc1Fragment_to_acc2Fragment2"
-            app:destination="@id/acc2Fragment2" />
-        <action
             android:id="@+id/action_acc1Fragment_to_accountFragment2"
             app:destination="@id/accountFragment2" />
         <action
-            android:id="@+id/action_acc1Fragment_to_acc2Fragment22"
-            app:destination="@id/acc2Fragment2" />
+            android:id="@+id/action_acc1Fragment_to_account2Fragment"
+            app:destination="@id/account2Fragment" />
     </fragment>
     <fragment
         android:id="@+id/make1Fragment"
@@ -227,18 +224,6 @@
             app:destination="@id/mainFragment" />
     </fragment>
     <fragment
-        android:id="@+id/acc2Fragment2"
-        android:name="com.example.ex1.fragment.Acc2Fragment"
-        android:label="fragment_acc2"
-        tools:layout="@layout/fragment_acc2" >
-        <action
-            android:id="@+id/action_acc2Fragment2_to_mainFragment"
-            app:destination="@id/mainFragment" />
-        <action
-            android:id="@+id/action_acc2Fragment2_to_acc1Fragment"
-            app:destination="@id/acc1Fragment" />
-    </fragment>
-    <fragment
         android:id="@+id/trans2dataFragment"
         android:name="com.example.ex1.fragment.Trans2dataFragment"
         android:label="fragment_trans2data"
@@ -258,6 +243,18 @@
         <action
             android:id="@+id/action_trans1dataFragment_to_trans2dataFragment"
             app:destination="@id/trans2dataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/account2Fragment"
+        android:name="com.example.ex1.fragment.Account2Fragment"
+        android:label="fragment_account2"
+        tools:layout="@layout/fragment_account2" >
+        <action
+            android:id="@+id/action_account2Fragment_to_acc1Fragment"
+            app:destination="@id/acc1Fragment" />
+        <action
+            android:id="@+id/action_account2Fragment_to_accountFragment2"
+            app:destination="@id/accountFragment2" />
     </fragment>
 
 </navigation>

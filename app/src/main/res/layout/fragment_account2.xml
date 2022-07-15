@@ -4,13 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Acc2Fragment">
+    tools:context=".fragment.Account2Fragment">
 
     <ImageView
         android:id="@+id/acccard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:contentDescription="TODO"
         android:src="@drawable/acc2back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,11 +18,11 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-
     <TextView
         android:id="@+id/txt_acc2"
         android:layout_width="191dp"
         android:layout_height="74dp"
+        android:layout_marginTop="28dp"
         android:autoSizeMaxTextSize="100dp"
         android:autoSizeMinTextSize="10dp"
         android:autoSizeTextType="uniform"
@@ -31,11 +30,10 @@
         android:fontFamily="sans-serif-black"
         android:text="@string/account"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/acccard"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <Button
         android:id="@+id/btn_homeacc2"
@@ -56,7 +54,7 @@
         android:layout_height="66dp"
         android:background="#00FFFFFF"
         android:foreground="@drawable/btn_back"
-        android:text="@string/back"
+        android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -66,8 +64,8 @@
 
     <Button
         android:id="@+id/btn_redacc2"
-        android:layout_width="389dp"
-        android:layout_height="202dp"
+        android:layout_width="332dp"
+        android:layout_height="204dp"
         android:backgroundTint="#03FFFFFF"
         android:contentDescription="@string/red"
         app:layout_constraintBottom_toTopOf="@+id/btn_backacc2"

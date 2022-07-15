@@ -24,6 +24,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.041" />
 
+    <ImageView
+        android:id="@+id/make2card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/make2back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btn_homemake2"
@@ -38,6 +49,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.019" />
 
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="85dp"
+        android:layout_height="83dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_make"
+        app:layout_constraintVertical_bias="0.095" />
+
+    <Button
+        android:id="@+id/btn_redmake2"
+        android:layout_width="400dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="540dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="@string/red"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_make"
+        app:layout_constraintVertical_bias="0.365"
+        app:strokeColor="#F44336"
+        app:strokeWidth="10dp" />
+
+    <TextView
+        android:id="@+id/menuex"
+        android:layout_width="356dp"
+        android:layout_height="144dp"
+        android:fontFamily="sans-serif-black"
+        android:text="계좌를 만들기 전 약관을 확인해야 합니다"
+        android:textColor="@color/orange"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_redmake2"
+        app:layout_constraintVertical_bias="0.945" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

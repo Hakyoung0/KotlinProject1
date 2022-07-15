@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_acc2.*
+import kotlinx.android.synthetic.main.fragment_account2.*
 
-class Acc2Fragment : Fragment() {
+class Account2Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -28,11 +28,11 @@ class Acc2Fragment : Fragment() {
 
 
         btn_homeacc2.setOnClickListener{
-            navController.navigate(R.id.action_acc2Fragment2_to_mainFragment)
+            navController.navigate(R.id.action_accountFragment2_to_mainFragment)
         }
 
         btn_backacc2.setOnClickListener{
-            navController.navigate(R.id.action_acc2Fragment2_to_acc1Fragment)
+            navController.navigate(R.id.action_accountFragment2_to_acc1Fragment)
         }
     }
 
