@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_home51"
+        android:id="@+id/btn_homedata1"
         android:layout_width="56dp"
         android:layout_height="54dp"
         android:background="#03FFFFFF"
@@ -51,18 +51,19 @@
         app:layout_constraintVertical_bias="0.586" />
 
     <Button
-        android:id="@+id/btn_red5"
-        android:layout_width="373dp"
-        android:layout_height="78dp"
+        android:id="@+id/btn_redtransbank"
+        android:layout_width="374dp"
+        android:layout_height="93dp"
         android:backgroundTint="#00FFFFFF"
         android:contentDescription="@string/red"
         app:layout_constraintBottom_toBottomOf="@+id/btn_banks"
         app:layout_constraintEnd_toEndOf="@+id/btn_banks"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btn_banks"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.339"
+        app:layout_constraintTop_toBottomOf="@+id/txt_trans1"
+        app:layout_constraintVertical_bias="0.155"
         app:strokeColor="#F44336"
         app:strokeWidth="10dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

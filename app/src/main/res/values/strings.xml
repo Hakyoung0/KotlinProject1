@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Bankingapp</string>
-    <string name="main_title">인터넷 뱅킹 배우기</string>
+    <string name="main_title">모바일 뱅킹 배우기</string>
     <string name="video">앱 다운로드 배우기</string>
     <string name="login">로그인</string>
     <string name="account">계좌조회</string>
@@ -23,5 +23,6 @@
     <string name="recipient">받는 분</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accbutton">Button</string>
 
 </resources>

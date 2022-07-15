@@ -27,11 +27,11 @@ class Trans2Fragment : Fragment() {
 
         navController = Navigation.findNavController(view)
 
-        btn_next2.setOnClickListener {
+        btn_nexttrans2.setOnClickListener {
             navController.navigate(R.id.action_trans2Fragment_to_transfinishFragment)
         }
 
-        btn_home52.setOnClickListener {
+        btn_hometrams2.setOnClickListener {
             navController.navigate(R.id.action_trans2Fragment_to_transferFragment)
         }
 

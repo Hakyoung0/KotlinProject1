@@ -38,5 +38,9 @@ class Trans1Fragment : Fragment() {
             navController.navigate(R.id.action_trans1Fragment_to_transferFragment)
         }
 
+        btn_backtrans1.setOnClickListener {
+            navController.navigate(R.id.action_trans1Fragment_to_transferFragment)
+        }
+
     }
 }

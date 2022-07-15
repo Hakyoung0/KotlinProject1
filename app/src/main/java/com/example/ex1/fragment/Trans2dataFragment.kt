@@ -8,10 +8,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_transdata2.*
+import kotlinx.android.synthetic.main.fragment_trans2data.*
 
 
-class Transdata2Fragment : Fragment() {
+class Trans2dataFragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -29,13 +29,13 @@ class Transdata2Fragment : Fragment() {
         navController = Navigation.findNavController(view)
 
 
-        btn_next12.setOnClickListener {
-            navController.navigate(R.id.action_transdata2Fragment_to_trans2Fragment)
+        btn_nextdata2.setOnClickListener {
+            navController.navigate(R.id.action_trans2dataFragment_to_trans2Fragment)
         }
 
 
-        btn_home52.setOnClickListener {
-            navController.navigate(R.id.action_transdata2Fragment_to_transferFragment)
+        btn_homedata2.setOnClickListener {
+            navController.navigate(R.id.action_trans2dataFragment_to_transferFragment)
         }
 
     }
