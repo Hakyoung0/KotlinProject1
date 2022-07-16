@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bankingback1"
-    tools:context=".fragment.Log2Fragment">
+    tools:context=".fragment.login.Log2Fragment">
 
     //기본 구성 화면
 

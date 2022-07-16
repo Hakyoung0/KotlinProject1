@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.account
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import com.example.ex1.R.layout.fragment_menu
-import kotlinx.android.synthetic.main.fragment_menu.*
+import kotlinx.android.synthetic.main.fragment_account2.*
 
-class MenuFragment : Fragment() {
+class Account2Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -20,26 +19,21 @@ class MenuFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(fragment_menu, container, false)
+        return inflater.inflate(R.layout.fragment_acc1, container, false)
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         navController= Navigation.findNavController(view)
 
-        btn_redmenu.setOnClickListener{
-            navController.navigate(R.id.action_menuFragment2_to_menunavFragment2)
+
+        btn_homeacc2.setOnClickListener{
+            navController.navigate(R.id.action_accountFragment2_to_mainFragment)
         }
 
-        btn_homemenu.setOnClickListener{
-            navController.navigate(R.id.action_menuFragment2_to_mainFragment)
-        }
-
-        btn_backmenu.setOnClickListener{
-            navController.navigate(R.id.action_menuFragment2_to_mainFragment)
+        btn_backacc2.setOnClickListener{
+            navController.navigate(R.id.action_accountFragment2_to_acc1Fragment)
         }
     }
-
 
 }

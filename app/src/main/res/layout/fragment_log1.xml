@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_gravity="top"
     android:padding="15dp"
-    tools:context=".fragment.Log1Fragment">
+    tools:context=".fragment.login.Log1Fragment">
 
     <Button
         android:id="@+id/btn_nextlog"

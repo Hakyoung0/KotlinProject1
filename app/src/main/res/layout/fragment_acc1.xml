@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bankback"
-    tools:context=".fragment.Acc1Fragment">
+    tools:context=".fragment.account.Acc1Fragment">
 
 
     <TextView

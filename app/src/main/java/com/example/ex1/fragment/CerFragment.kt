@@ -9,7 +9,6 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
 import kotlinx.android.synthetic.main.fragment_cer.*
-import kotlinx.android.synthetic.main.fragment_log2.*
 
 class CerFragment : Fragment() {
 

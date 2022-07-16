@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bankingback1"
-    tools:context=".fragment.MakeFragment">
+    tools:context=".fragment.make.MakeFragment">
 
 
     <ImageView
@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/txt_make"
-        android:layout_width="186dp"
-        android:layout_height="67dp"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
         android:layout_marginTop="24dp"
         android:autoSizeMaxTextSize="100dp"
         android:autoSizeMinTextSize="10dp"

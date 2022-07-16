@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.transfer
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,13 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_trans1.*
-import kotlinx.android.synthetic.main.fragment_trans1data.*
+import kotlinx.android.synthetic.main.fragment_transfinish.*
 
-
-class Trans1dataFragment : Fragment() {
-
-
+class TransfinishFragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -23,18 +19,19 @@ class Trans1dataFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_trans1data, container, false)
-
+        return inflater.inflate(R.layout.fragment_transfinish, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        navController = Navigation.findNavController(view)
+        navController= Navigation.findNavController(view)
 
-        btn_redtransbank.setOnClickListener {
-            navController.navigate(R.id.action_trans1dataFragment_to_trans2dataFragment)
+
+        btn_first.setOnClickListener{
+            navController.navigate(R.id.action_transfinishFragment_to_mainFragment)
         }
 
     }
+
 }

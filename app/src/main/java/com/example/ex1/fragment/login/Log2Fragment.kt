@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_cer.*
+import kotlinx.android.synthetic.main.fragment_log2.*
 
-class Cer1Fragment : Fragment() {
+class Log2Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -19,7 +19,7 @@ class Cer1Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_cer1, container, false)
+        return inflater.inflate(R.layout.fragment_log2, container, false)
 
     }
 
@@ -29,10 +29,9 @@ class Cer1Fragment : Fragment() {
         navController = Navigation.findNavController(view)
 
 
-        btn_home.setOnClickListener {
-            navController.navigate(R.id.action_cer1Fragment_to_mainFragment)
+        btn_redlog2.setOnClickListener {
+            navController.navigate(R.id.action_log2Fragment_to_mainFragment)
         }
 
     }
-
 }

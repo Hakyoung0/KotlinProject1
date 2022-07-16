@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.login
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
+import androidx.navigation.fragment.findNavController
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_trans1.*
-import kotlinx.android.synthetic.main.fragment_trans2.*
+import kotlinx.android.synthetic.main.fragment_login.*
 
-class Trans2Fragment : Fragment() {
+class LoginFragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -20,21 +20,28 @@ class Trans2Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_trans2, container, false)
+        return inflater.inflate(R.layout.fragment_login, container, false)
+
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         navController = Navigation.findNavController(view)
 
-        btn_nexttrans2.setOnClickListener {
-            navController.navigate(R.id.action_trans2Fragment_to_transfinishFragment)
+        btn_login2.setOnClickListener {
+            val action = LoginFragmentDirections.actionLoginFragmentToLog1Fragment2(id = "id", password = "password")
+            findNavController().navigate(action)
         }
 
-        btn_hometrams2.setOnClickListener {
-            navController.navigate(R.id.action_trans2Fragment_to_transferFragment)
+
+        btn_home2.setOnClickListener {
+            navController.navigate(R.id.action_loginFragment_to_mainFragment)
+        }
+
+        btn_back.setOnClickListener {
+            navController.navigate(R.id.action_loginFragment_to_mainFragment)
         }
 
     }
-
 }

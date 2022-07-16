@@ -10,7 +10,6 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_login.*
 import kotlinx.android.synthetic.main.fragment_main.*
 
 
@@ -56,7 +55,7 @@ class MainFragment : Fragment() {
             navController.navigate(R.id.action_mainFragment_to_menuFragment2)
         }
         btn_url.setOnClickListener {
-            var intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.shinhaninvest.com/siw/customer-center/protection/customer_education_senior/contents.do"))
+            val intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.shinhaninvest.com/siw/customer-center/protection/customer_education_senior/contents.do"))
             startActivity(intent)
         }
 

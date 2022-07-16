@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Trans2dataFragment">
+    tools:context=".fragment.transfer.TransnumberFragment">
 
     <TextView
         android:id="@+id/txt_trans1"
@@ -35,7 +35,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btn_homedata2"
+        android:id="@+id/btn_homenumber"
         android:layout_width="56dp"
         android:layout_height="54dp"
         android:background="#03FFFFFF"
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.058" />
 
     <Button
-        android:id="@+id/btn_nextdata2"
+        android:id="@+id/btn_nextnumber"
         android:layout_width="130dp"
         android:layout_height="66dp"
         android:background="#00FFFFFF"

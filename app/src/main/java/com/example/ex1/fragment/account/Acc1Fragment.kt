@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.account
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,6 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
 import kotlinx.android.synthetic.main.fragment_acc1.*
-import kotlinx.android.synthetic.main.fragment_account.*
 
 class Acc1Fragment : Fragment() {
 

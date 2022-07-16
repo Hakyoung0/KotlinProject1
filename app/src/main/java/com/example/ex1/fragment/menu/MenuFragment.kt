@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.menu
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_make.*
+import com.example.ex1.R.layout.fragment_menu
+import kotlinx.android.synthetic.main.fragment_menu.*
 
-
-class MakeFragment : Fragment() {
+class MenuFragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -20,24 +20,26 @@ class MakeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_make, container, false)
+        return inflater.inflate(fragment_menu, container, false)
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         navController= Navigation.findNavController(view)
 
-        btn_redmake1.setOnClickListener{
-            navController.navigate(R.id.action_makeFragment2_to_make1Fragment)
+        btn_redmenu.setOnClickListener{
+            navController.navigate(R.id.action_menuFragment2_to_menunavFragment2)
         }
 
-        btn_homemake.setOnClickListener{
-            navController.navigate(R.id.action_makeFragment2_to_mainFragment)
+        btn_homemenu.setOnClickListener{
+            navController.navigate(R.id.action_menuFragment2_to_mainFragment)
         }
 
-        btn_backmake.setOnClickListener{
-            navController.navigate(R.id.action_makeFragment2_to_mainFragment)
+        btn_backmenu.setOnClickListener{
+            navController.navigate(R.id.action_menuFragment2_to_mainFragment)
         }
     }
+
 
 }

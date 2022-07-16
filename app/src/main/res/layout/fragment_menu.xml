@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bankingback1"
-    tools:context=".fragment.MenuFragment">
+    tools:context=".fragment.menu.MenuFragment">
 
 
     <ImageView
@@ -22,9 +22,9 @@
 
     <TextView
         android:id="@+id/txt_menunav"
-        android:layout_width="186dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="183dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
         android:autoSizeMaxTextSize="100dp"
         android:autoSizeMinTextSize="10dp"
         android:autoSizeTextType="uniform"

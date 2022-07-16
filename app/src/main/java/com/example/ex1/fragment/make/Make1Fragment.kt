@@ -1,4 +1,4 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.make
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,10 +8,10 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_trans2data.*
+import kotlinx.android.synthetic.main.fragment_cer.btn_home
+import kotlinx.android.synthetic.main.fragment_make1.*
 
-
-class Trans2dataFragment : Fragment() {
+class Make1Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -20,7 +20,7 @@ class Trans2dataFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_trans1, container, false)
+        return inflater.inflate(R.layout.fragment_make1, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -29,14 +29,15 @@ class Trans2dataFragment : Fragment() {
         navController = Navigation.findNavController(view)
 
 
-        btn_nextdata2.setOnClickListener {
-            navController.navigate(R.id.action_trans2dataFragment_to_trans2Fragment)
+        btn_home.setOnClickListener {
+            navController.navigate(R.id.action_make1Fragment_to_mainFragment)
         }
 
-
-        btn_homedata2.setOnClickListener {
-            navController.navigate(R.id.action_trans2dataFragment_to_transferFragment)
+        btn_redmake.setOnClickListener {
+            navController.navigate(R.id.action_make1Fragment_to_make2Fragment)
         }
+
 
     }
+
 }

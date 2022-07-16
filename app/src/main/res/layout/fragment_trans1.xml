@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.Trans1Fragment">
+    tools:context=".fragment.transfer.Trans1Fragment">
 
 
     <ImageView
@@ -36,7 +36,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_home51"
+        android:id="@+id/btn_hometrans1"
         android:layout_width="56dp"
         android:layout_height="54dp"
         android:background="#03FFFFFF"
@@ -92,7 +92,7 @@
         app:layout_constraintVertical_bias="0.087" />
 
     <Button
-        android:id="@+id/btn_red51"
+        android:id="@+id/btn_redtrans1"
         android:layout_width="373dp"
         android:layout_height="78dp"
         android:backgroundTint="#00FFFFFF"

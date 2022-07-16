@@ -1,22 +1,16 @@
-package com.example.ex1.fragment
+package com.example.ex1.fragment.make
 
-import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
+import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.ex1.R
-import kotlinx.android.synthetic.main.fragment_cer.*
-import kotlinx.android.synthetic.main.fragment_cer.btn_home
-import kotlinx.android.synthetic.main.fragment_main.*
-import kotlinx.android.synthetic.main.fragment_make1.*
-import kotlinx.android.synthetic.main.fragment_transfer.*
+import kotlinx.android.synthetic.main.fragment_make2.*
 
-class Make1Fragment : Fragment() {
+class Make2Fragment : Fragment() {
 
     lateinit var navController: NavController
 
@@ -34,14 +28,9 @@ class Make1Fragment : Fragment() {
         navController = Navigation.findNavController(view)
 
 
-        btn_home.setOnClickListener {
-            navController.navigate(R.id.action_make1Fragment_to_mainFragment)
+        btn_homemake2.setOnClickListener {
+            navController.navigate(R.id.action_make2Fragment_to_mainFragment)
         }
-
-        btn_redmake.setOnClickListener {
-            navController.navigate(R.id.action_make1Fragment_to_make2Fragment)
-        }
-
 
     }
 

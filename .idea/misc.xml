@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/layout-v26/fragment_acc1.xml" value="0.1" />
         <entry key="app/src/main/res/layout-v26/fragment_acc2.xml" value="0.13020833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.13601823708206687" />
         <entry key="app/src/main/res/layout/fragment_acc1.xml" value="0.1" />
@@ -22,6 +23,7 @@
         <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.1490036231884058" />
         <entry key="app/src/main/res/layout/fragment_menu1.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_menunav.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/fragment_menunav2.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_menuns.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_menus.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_trans1.xml" value="0.165" />
@@ -29,9 +31,12 @@
         <entry key="app/src/main/res/layout/fragment_trans1data.xml" value="0.11220225658169662" />
         <entry key="app/src/main/res/layout/fragment_trans2.xml" value="0.13825929283771532" />
         <entry key="app/src/main/res/layout/fragment_trans2data.xml" value="0.1124111993313832" />
+        <entry key="app/src/main/res/layout/fragment_transbank.xml" value="0.15820489573889393" />
         <entry key="app/src/main/res/layout/fragment_transdata2.xml" value="0.2198549410698096" />
         <entry key="app/src/main/res/layout/fragment_transfer.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_transfinish.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/fragment_transmoney.xml" value="0.15820489573889393" />
+        <entry key="app/src/main/res/layout/fragment_transnumber.xml" value="0.15820489573889393" />
         <entry key="app/src/main/res/menu/menu_drawer_navigation.xml" value="0.1" />
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.2796875" />
       </map>
