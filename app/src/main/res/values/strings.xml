@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Bankingapp</string>
+    <string name="app_name">MobliebankingLearning</string>
     <string name="main_title">모바일 뱅킹 배우기</string>
     <string name="video">앱 다운로드 배우기</string>
     <string name="login">로그인</string>
