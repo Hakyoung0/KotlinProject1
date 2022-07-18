@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.bankinglearning.fragment.MainFragment"
+        android:name="com.ha0.bankinglearning.fragment.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.bankinglearning.fragment.login.LoginFragment"
+        android:name="com.ha0.bankinglearning.fragment.login.LoginFragment"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
@@ -43,7 +43,7 @@
     </fragment>
     <fragment
         android:id="@+id/log1Fragment2"
-        android:name="com.example.bankinglearning.fragment.login.Log1Fragment"
+        android:name="com.ha0.bankinglearning.fragment.login.Log1Fragment"
         android:label="fragment_log1"
         tools:layout="@layout/fragment_log1" >
         <action
@@ -61,7 +61,7 @@
     </fragment>
     <fragment
         android:id="@+id/log2Fragment"
-        android:name="com.example.bankinglearning.fragment.login.Log2Fragment"
+        android:name="com.ha0.bankinglearning.fragment.login.Log2Fragment"
         android:label="fragment_log2"
         tools:layout="@layout/fragment_log2" >
         <action
@@ -71,7 +71,7 @@
 
     <fragment
         android:id="@+id/transferFragment"
-        android:name="com.example.bankinglearning.fragment.transfer.TransferFragment"
+        android:name="com.ha0.bankinglearning.fragment.transfer.TransferFragment"
         android:label="fragment_transfer"
         tools:layout="@layout/fragment_transfer" >
         <action
@@ -83,7 +83,7 @@
     </fragment>
     <fragment
         android:id="@+id/transfinishFragment"
-        android:name="com.example.bankinglearning.fragment.transfer.TransfinishFragment"
+        android:name="com.ha0.bankinglearning.fragment.transfer.TransfinishFragment"
         android:label="fragment_transfinish"
         tools:layout="@layout/fragment_transfinish" >
         <action
@@ -92,7 +92,7 @@
     </fragment>
     <fragment
         android:id="@+id/trans1Fragment"
-        android:name="com.example.bankinglearning.fragment.transfer.Trans1Fragment"
+        android:name="com.ha0.bankinglearning.fragment.transfer.Trans1Fragment"
         android:label="fragment_trans1"
         tools:layout="@layout/fragment_trans1" >
         <action
@@ -104,7 +104,7 @@
     </fragment>
     <fragment
         android:id="@+id/accountFragment2"
-        android:name="com.example.bankinglearning.fragment.account.AccountFragment"
+        android:name="com.ha0.bankinglearning.fragment.account.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" >
         <action
@@ -116,7 +116,7 @@
     </fragment>
     <fragment
         android:id="@+id/makeFragment2"
-        android:name="com.example.bankinglearning.fragment.make.MakeFragment"
+        android:name="com.ha0.bankinglearning.fragment.make.MakeFragment"
         android:label="fragment_make"
         tools:layout="@layout/fragment_make" >
         <action
@@ -131,7 +131,7 @@
     </fragment>
     <fragment
         android:id="@+id/cerFragment"
-        android:name="com.example.bankinglearning.fragment.CerFragment"
+        android:name="com.ha0.bankinglearning.fragment.CerFragment"
         android:label="fragment_cer"
         tools:layout="@layout/fragment_cer" >
         <action
@@ -143,7 +143,7 @@
     </fragment>
     <fragment
         android:id="@+id/trans2Fragment"
-        android:name="com.example.bankinglearning.fragment.transfer.Trans2Fragment"
+        android:name="com.ha0.bankinglearning.fragment.transfer.Trans2Fragment"
         android:label="fragment_trans2"
         tools:layout="@layout/fragment_trans2" >
         <action
@@ -155,7 +155,7 @@
     </fragment>
     <fragment
         android:id="@+id/acc1Fragment"
-        android:name="com.example.bankinglearning.fragment.account.Acc1Fragment"
+        android:name="com.ha0.bankinglearning.fragment.account.Acc1Fragment"
         android:label="fragment_acc1"
         tools:layout="@layout/fragment_acc1" >
         <action
@@ -167,7 +167,7 @@
     </fragment>
     <fragment
         android:id="@+id/make1Fragment"
-        android:name="com.example.bankinglearning.fragment.make.Make1Fragment"
+        android:name="com.ha0.bankinglearning.fragment.make.Make1Fragment"
         android:label="fragment_make1"
         tools:layout="@layout/fragment_make1" >
         <action
@@ -179,7 +179,7 @@
     </fragment>
     <fragment
         android:id="@+id/menuFragment2"
-        android:name="com.example.bankinglearning.fragment.menu.MenuFragment"
+        android:name="com.ha0.bankinglearning.fragment.menu.MenuFragment"
         android:label="fragment_menu"
         tools:layout="@layout/fragment_menu" >
         <action
@@ -191,7 +191,7 @@
     </fragment>
     <fragment
         android:id="@+id/menunavFragment2"
-        android:name="com.example.bankinglearning.fragment.menu.MenunavFragment"
+        android:name="com.ha0.bankinglearning.fragment.menu.MenunavFragment"
         android:label="fragment_menunav"
         tools:layout="@layout/fragment_menunav" >
         <action
@@ -207,7 +207,7 @@
 
     <fragment
         android:id="@+id/cer1Fragment"
-        android:name="com.example.bankinglearning.fragment.Cer1Fragment"
+        android:name="com.ha0.bankinglearning.fragment.Cer1Fragment"
         android:label="fragment_cer1"
         tools:layout="@layout/fragment_cer1" >
         <action
@@ -216,7 +216,7 @@
     </fragment>
     <fragment
         android:id="@+id/make2Fragment"
-        android:name="com.example.bankinglearning.fragment.make.Make2Fragment"
+        android:name="com.ha0.bankinglearning.fragment.make.Make2Fragment"
         android:label="fragment_make2"
         tools:layout="@layout/fragment_make2" >
         <action
@@ -225,7 +225,7 @@
     </fragment>
     <fragment
         android:id="@+id/account2Fragment"
-        android:name="com.example.bankinglearning.fragment.account.Account2Fragment"
+        android:name="com.ha0.bankinglearning.fragment.account.Account2Fragment"
         android:label="fragment_account2"
         tools:layout="@layout/fragment_account2" >
         <action
@@ -237,7 +237,7 @@
     </fragment>
     <fragment
         android:id="@+id/menunav2Fragment"
-        android:name="com.example.bankinglearning.fragment.menu.Menunav2Fragment"
+        android:name="com.ha0.bankinglearning.fragment.menu.Menunav2Fragment"
         android:label="fragment_menunav2"
         tools:layout="@layout/fragment_menunav2" >
         <action
@@ -249,7 +249,7 @@
     </fragment>
     <fragment
         android:id="@+id/transbankFragment"
-        android:name="com.example.bankinglearning.fragment.transfer.TransbankFragment"
+        android:name="com.ha0.bankinglearning.fragment.transfer.TransbankFragment"
         android:label="fragment_transbank"
         tools:layout="@layout/fragment_transbank" >
         <action
@@ -261,7 +261,7 @@
     </fragment>
     <fragment
         android:id="@+id/transnumberFragment"
-        android:name="com.example.bankinglearning.fragment.transfer.TransnumberFragment"
+        android:name="com.ha0.bankinglearning.fragment.transfer.TransnumberFragment"
         android:label="fragment_transnumber"
         tools:layout="@layout/fragment_transnumber" >
         <action
