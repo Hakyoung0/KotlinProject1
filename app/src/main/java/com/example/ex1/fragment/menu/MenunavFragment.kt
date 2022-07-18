@@ -35,8 +35,8 @@ class MenunavFragment : Fragment() {
             navController.navigate(R.id.action_menunavFragment2_to_mainFragment)
         }
 
-        btn_menuback.setOnClickListener{
-            navController.navigate(R.id.action_menunavFragment2_to_menuFragment2)
+        btn_menunext.setOnClickListener{
+            navController.navigate(R.id.action_menunavFragment2_to_menunav2Fragment)
         }
     }
 
