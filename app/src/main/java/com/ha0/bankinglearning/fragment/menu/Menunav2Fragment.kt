@@ -8,7 +8,6 @@ import android.view.ViewGroup
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.ha0.bankinglearning.R
-import kotlinx.android.synthetic.main.fragment_menunav.*
 import kotlinx.android.synthetic.main.fragment_menunav2.*
 
 
