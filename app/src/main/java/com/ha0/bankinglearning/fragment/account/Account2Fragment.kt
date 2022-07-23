@@ -19,7 +19,7 @@ class Account2Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_acc1, container, false)
+        return inflater.inflate(R.layout.fragment_account2, container, false)
     }
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
@@ -28,11 +28,11 @@ class Account2Fragment : Fragment() {
 
 
         btn_homeacc2.setOnClickListener{
-            navController.navigate(R.id.action_accountFragment2_to_mainFragment)
+            navController.navigate(R.id.action_account2Fragment_to_accountFragment2)
         }
 
         btn_backacc2.setOnClickListener{
-            navController.navigate(R.id.action_accountFragment2_to_acc1Fragment)
+            navController.navigate(R.id.action_account2Fragment_to_acc1Fragment)
         }
     }
 

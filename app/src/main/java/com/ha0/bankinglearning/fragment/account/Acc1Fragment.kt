@@ -28,7 +28,7 @@ class Acc1Fragment : Fragment() {
         navController= Navigation.findNavController(view)
 
         btn_redacc1.setOnClickListener{
-            navController.navigate(R.id.action_acc1Fragment_to_accountFragment2)
+            navController.navigate(R.id.action_acc1Fragment_to_account2Fragment)
         }
 
         btn_homeacc1.setOnClickListener{
